@@ -24,6 +24,7 @@ p {
     background-color: var(--link-active-color);
     border: none;
     color: var(--button-color);
+    cursor: pointer;
 }
 .button-request:hover,
 .button-request:focus {
@@ -36,7 +37,6 @@ p {
 /*logo section*/
 .logo {
     font-family: Raleway, sans-serif;
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
@@ -55,9 +55,6 @@ p {
     color: var(--link-active-color);
 }
 .navigation {
-
-
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -66,23 +63,19 @@ p {
 }
 
 .mail {
-
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
 }
 /*contacts*/
 .phone {
-
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 1.14;
-letter-spacing: 0.02em;
-color: var(--text-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--text-color);
 }
 
 /*main*/
@@ -95,13 +88,12 @@ color: var(--text-color);
 button {
     background-color: var(--button-color);
     border: none;
-
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.6;
-text-align: center;
-letter-spacing: 0.03em;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
 }
 
 .filter:hover,
@@ -109,34 +101,34 @@ letter-spacing: 0.03em;
     color: var(--button-color);
     background-color: var(--link-active-color);
 }
-.project{
-
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+/*main*/
+.project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
 }
-.services{
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 1.8;
-letter-spacing: 0.03em;
+.services {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.03em;
 }
-.address{
+/*address*/
+.address {
     font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 
-color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.6);
 }
-.city{
-font-style: normal;
-font-size: 14px;
-line-height: 1.7;
-letter-spacing: 0.03em;
-color: var(--button-color);
+
+.city {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--button-color);
 }
