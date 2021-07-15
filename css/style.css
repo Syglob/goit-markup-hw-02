@@ -1,85 +1,78 @@
-ul{
+ul {
     list-style: none;
 }
-body{
-   background-color: #FFFFFF; 
+body {
+    background-color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-weight: 1600px;
 }
 
-:root{
-    --link-active-color: #2196F3;
+:root {
+    --link-active-color: #2196f3;
     --link-color: #212121;
     --text-color: #757575;
-    --button-color: #F5F4FA;
-
+    --button-color: #f5f4fa;
 }
 p {
     color: var(--text-color);
 }
-a{
+a {
     text-decoration: none;
 }
 /*header*/
 
 /*logo section*/
-.logo{
-
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
-
-font-family: Raleway;
-font-style: normal;
-font-weight: bold;
-font-size: 26px;
-line-height: 31px;
-letter-spacing: 0.03em;
-color: var(--link-active-color);
+.logo {
+    font-family: Raleway, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--link-active-color);
 }
-.logo-studio{
-color: #000000;
+.logo-studio {
+    color: #000000;
 }
 /*navigation*/
-.navigation .link{
-color: var(--link-color);
+.navigation .link {
+    color: var(--link-color);
 }
-.navigation .link:hover, 
-.navigation .link:focus{
-color:var(--link-active-color);
+.navigation .link:hover,
+.navigation .link:focus {
+    color: var(--link-active-color);
 }
 
-.mail{
-color: var(--text-color);
-position: absolute;
-width: 135px;
-height: 16px;
-left: 1078px;
-top: 32px;
+.mail {
+    color: var(--text-color);
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
 }
 /*contacts*/
-.phone{
-color: var(--text-color);
-position: absolute;
-width: 122px;
-height: 16px;
-left: 1263px;
-top: 32px;
+.phone {
+    color: var(--text-color);
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
 }
 
 /*main*/
 
 /*button*/
-.filter{
+.filter {
     color: var(--link-color);
 }
 
-button{
+button {
     background-color: var(--button-color);
     border: none;
 }
 
-.filter:hover, 
-filter:focus{
-color: var(--button-color);
-background-color: var(--link-active-color);
+.filter:hover,
+filter:focus {
+    color: var(--button-color);
+    background-color: var(--link-active-color);
 }
