@@ -3,7 +3,6 @@ ul{
 }
 body{
    background-color: #FFFFFF; 
-   font-family: Roboto;
 }
 
 :root{
@@ -15,6 +14,9 @@ body{
 }
 p {
     color: var(--text-color);
+}
+a{
+    text-decoration: none;
 }
 /*header*/
 
