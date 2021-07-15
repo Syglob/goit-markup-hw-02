@@ -1,10 +1,12 @@
 ul {
     list-style: none;
 }
+a {
+    text-decoration: none;
+}
 body {
     background-color: #ffffff;
     font-family: Roboto, sans-serif;
-    font-weight: 1600px;
 }
 
 :root {
@@ -16,9 +18,19 @@ body {
 p {
     color: var(--text-color);
 }
-a {
-    text-decoration: none;
+
+/*baner section button*/
+.button-request {
+    background-color: var(--link-active-color);
+    border: none;
+    color: var(--button-color);
 }
+.button-request:hover,
+.button-request:focus {
+    color: var(--text-color);
+    background-color: var(--button-color);
+}
+
 /*header*/
 
 /*logo section*/
@@ -27,7 +39,7 @@ a {
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--link-active-color);
 }
@@ -42,21 +54,35 @@ a {
 .navigation .link:focus {
     color: var(--link-active-color);
 }
+.navigation {
+
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--link-color);
+}
 
 .mail {
-    color: var(--text-color);
-    width: 135px;
-    height: 16px;
-    left: 1078px;
-    top: 32px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--text-color);
 }
 /*contacts*/
 .phone {
-    color: var(--text-color);
-    width: 122px;
-    height: 16px;
-    left: 1263px;
-    top: 32px;
+
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--text-color);
 }
 
 /*main*/
@@ -69,10 +95,48 @@ a {
 button {
     background-color: var(--button-color);
     border: none;
+
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.6;
+text-align: center;
+letter-spacing: 0.03em;
 }
 
 .filter:hover,
-filter:focus {
+.filter:focus {
     color: var(--button-color);
     background-color: var(--link-active-color);
+}
+.project{
+
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+.services{
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.8;
+letter-spacing: 0.03em;
+}
+.address{
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);
+}
+.city{
+font-style: normal;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: var(--button-color);
 }
