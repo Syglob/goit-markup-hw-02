@@ -30,6 +30,7 @@ body {
   border: none;
   color: var(--button-color);
   cursor: pointer;
+  border-radius: 4px;
 }
 .button-request:hover,
 .button-request:focus {
@@ -102,6 +103,7 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .filter:hover,
@@ -155,7 +157,4 @@ button {
 }
 .logo-studio-footer {
   color: var(--white-color);
-}
-
-.logo {
 }
