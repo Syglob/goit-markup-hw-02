@@ -5,7 +5,7 @@ a {
     text-decoration: none;
 }
 body {
-    background-color: #ffffff;
+    background-color: var(--white-color);
     font-family: Roboto, sans-serif;
 }
 
@@ -13,7 +13,11 @@ body {
     --link-active-color: #2196f3;
     --link-color: #212121;
     --text-color: #757575;
-    --button-color: #f5f4fa;
+    --button-color: #F5F4FA;
+    --white-color:#FFFFFF;
+    --black-color:#000000;
+    --address-color:rgba(255, 255, 255, 0.6);
+    --background-color:  #2F303A;
 }
 p {
     color: var(--text-color);
@@ -28,7 +32,7 @@ p {
 }
 .button-request:hover,
 .button-request:focus {
-    color: var(--text-color);
+    color: var(--link-color);
     background-color: var(--button-color);
 }
 
@@ -44,7 +48,7 @@ p {
     color: var(--link-active-color);
 }
 .logo-studio {
-    color: #000000;
+    color: var(--black-color);
 }
 /*navigation*/
 .navigation .link {
@@ -54,12 +58,15 @@ p {
 .navigation .link:focus {
     color: var(--link-active-color);
 }
+.navigation .link.current{
+    color: var(--link-active-color);
+}
 .navigation {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    color: var(--link-color);
+    
 }
 
 .mail {
@@ -87,6 +94,7 @@ p {
 
 button {
     background-color: var(--button-color);
+    font-family: Roboto;
     border: none;
     font-weight: 500;
     font-size: 16px;
@@ -107,6 +115,7 @@ button {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
+    color: var(--link-color);
 }
 .services {
     font-weight: 400;
@@ -117,12 +126,11 @@ button {
 /*address*/
 .address {
     font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
-
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--address-color);
+    background-color:var(--background-color);
 }
 
 .city {
@@ -131,4 +139,18 @@ button {
     line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--button-color);
+}
+/*logo footer*/
+.logo-footer {
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--link-active-color);
+
+    
+}
+.logo-studio-footer {
+    color: var(--white-color);
 }
